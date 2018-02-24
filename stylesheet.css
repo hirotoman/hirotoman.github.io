@@ -1,8 +1,7 @@
-body {
-  font-family: "Avenir Next";
+.header-logo{
+	float: left;
 }
 
-
-
-
-
+.header-list{
+	float: left;
+}
