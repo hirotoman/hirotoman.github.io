@@ -9,3 +9,7 @@
 .header-list li{
 	float: left;
 }
+
+li{
+	list-style: none;
+}
