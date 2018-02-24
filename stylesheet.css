@@ -5,3 +5,7 @@
 .header-list{
 	float: left;
 }
+
+.header-list li{
+	float: left;
+}
