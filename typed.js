@@ -1,4 +1,9 @@
-var typed = new Typed('.element', {
-  strings: ["First sentence.", "Second sentence."],
-  typeSpeed: 30
-});
+// Can also be included with a regular script tag
+import Typed from 'typed.js';
+
+var options = {
+  strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+  typeSpeed: 40
+}
+
+var typed = new Typed(".element", options);
