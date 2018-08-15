@@ -27,12 +27,12 @@ a{
 
 
 header{
-	background-color: #ffffff;
-	width: 100%;
-	height: 65px;
-	top: 0;
-	z-index: 10px;
-	position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+  height: 65px;
+  top: 0;
+  z-index: 20px;
+  position: fixed;
 }
 
 /*progateの見本*/
@@ -46,110 +46,76 @@ header{
 }*/
 
 
-
-.header-logo img{
-	display: inline-block;
-	float: left;
-	width: 190px;
-	height: 80px;
-	margin: 10px 20px 10px 140px;
+.header-left{
+  float: left;
+  padding-top: 10px;
+  padding-right: 40px;
+  color: red;
+  margin-left: 20px;
 }
 
-.header-left li{
-	list-style: none;
-	float: left;
-	padding-top: 10px;
-	padding-right: 40px;
-	color: red;
-}
-
-.header-left {
-	margin-left: 20px;
-}
 
 
 .header-right li{
-	list-style: none;
-	float: right;
-	padding-top: 10px;
-	padding-right: 40px;
-	color: red;
+  list-style: none;
+  float: right;
+  /*padding-top: 10px;*/
+  padding-right: 40px;
+  color: red;
+  line-height: 45px;
 }
 
 
 .header-right {
-	margin-right: 20px;
+  margin-right: 100px;
 }
 
 .works-wrapper {
+  padding-top: 50px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
-  text-align: center;
-  height:630px;
+  /*text-align: center;*/
+  height:900px;
+  overflow:hidden;
 }
 
 
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
   width: 100%;
-  padding: 0 15px;
+  padding: 0 60px;
   margin: 0 auto;
 }
 
 
-
-.heading {
-  padding-top: 60px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-  margin-top:20px;
-}
-
-
-.works{
-　max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.work {
+.work{
   float: left;
-  width: 50%;
+  padding: 10px 40px;
+  /*width: 50%;*/
+}
+
+.work:hover{
+  opacity: 0.8;
+  transition: all 0.4s;
+}
+
+
+/*ここから追記*/
+
+
+.work-icon img{
+  border-radius: 5px;
+  text-align: left;
+}
+
+
+
+.work-title{
+  font-weight: bold;
   }
 
-
-.clear{
-  float:clear;
-}
-
-/*.work-icon {
-  position: relative;
-}
-
-
-.work-icon p{
-  position: absolute;
-  top:300px;
-  left: -125px;
-  width: 100%;
-  color: red;
-  z-index: 99;
-}*/
-
-/*
-.work-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}*/
 
 
 /* -------------------- CSSは一番下から書き始めてください！ -------------------- 
