@@ -51,7 +51,7 @@ header{
   padding-top: 10px;
   padding-right: 40px;
   color: red;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 
@@ -124,15 +124,7 @@ header{
   clear: both;
 }
 
-/*.seeMore{
-  border: 1px solid #e1e1e1;
-  border-radius: 4px;
-  width: 50px;
-  height: 40px;
-  padding: 10px;
-  margin: 0 auto;
-  letter-spacing: 1px;
-}*/
+
 
 .seeMore a{
   border: 1px solid #343e4f;
