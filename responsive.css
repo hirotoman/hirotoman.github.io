@@ -25,8 +25,11 @@
 }
 */
  
- 
-/*モバイル向けレイアウト */
+
+
+
+/*モバイル向けレイアウト ここから*/
+
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
@@ -36,33 +39,18 @@
     display: block;
   }
   
-  .top-wrapper .btn {
-    width: 100%;
-  }
-
-  
-  .top-wrapper {
-    text-align: left;
-  }
+.work{
+  padding: 10px 40px;
+  width: 100%;
+}
   
   .top-wrapper h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
-  .top-wrapper p {
-    font-size: 14px;
-  }
-  
   .works-wrapper{
     height:1800px;
   }
-  
-  .work{
-    width:100%;
-  }
-  
-  .message{
-    width:100%;
-  }
+
 
 }
