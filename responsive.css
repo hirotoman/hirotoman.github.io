@@ -11,9 +11,9 @@
     font-size:20px;
   }
   
-  /*.works-wrapper{
+  .works-wrapper{
     height:1090px;
-  }*/
+  }
   
   .container {
   max-width: 1024px;
@@ -65,9 +65,9 @@
   margin: 0 auto;
 }
 
-/*.works-wrapper{
-    height:1800px;
-  }*/
+.works-wrapper{
+    height:1090px;
+  }
 
 .work{
   padding: 10px;
