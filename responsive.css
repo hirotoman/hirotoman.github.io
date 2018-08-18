@@ -1,6 +1,7 @@
 
-/*タブレット向けレイアウト */
-/*@media all and (max-width: 1000px) {
+/*タブレット向けレイアウト ここから*/
+
+@media all and (max-width: 1000px) {
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -13,18 +14,16 @@
     height:1090px;
   }
   
+
   .work{
-    width:50%;
-    margin-bottom:50px;
-  }
+  padding: 10px 40px;
+  width: 50%;
+}
   
+
   footer{
     text-align:center;
   }
-  
-}
-*/
- 
 
 
 
