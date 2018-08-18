@@ -1,7 +1,8 @@
 
 /*タブレット向けレイアウト ここから*/
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
+
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -14,6 +15,12 @@
     height:1090px;
   }
   
+  .container {
+  max-width: 1024px;
+  width: 100%;
+ /* padding: 0 60px;*/
+  margin: 0 auto;
+}
 
   .work{
   padding: 10px 40px;
@@ -21,8 +28,6 @@
   }
 
   .work-icon img{
-  /*border-radius: 5px;*/
-  /*text-align: left;*/
   width: 280px;
   height: 210px;
   }
@@ -30,13 +35,16 @@
   footer{
     text-align:center;
   }
+
+
 }
 
 
 
 /*モバイル向けレイアウト ここから*/
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 750px) {
+  
   .header-right {
     margin-right: 0;
   }
@@ -49,6 +57,14 @@
 .top-wrapper h1 {
     font-size: 20px;
   }
+
+
+  .container {
+  max-width: 750px;
+  width: 100%;
+ /* padding: 0 60px;*/
+  margin: 0 auto;
+}
 
 .works-wrapper{
     height:1800px;
