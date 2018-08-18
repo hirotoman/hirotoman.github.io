@@ -3,6 +3,13 @@
 
 @media all and (max-width: 1024px) {
 
+  .header-right li{
+  /*list-style: none;
+  float: right;
+  line-height: 45px;*/
+  padding: 0 10px;
+}
+
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -53,7 +60,11 @@
 
 .header-right li{
   font-size: 16px;
-  }
+  /*list-style: none;
+  float: right;
+  line-height: 45px;*/
+  padding: 0 10px;
+}
 
 .top-wrapper h1 {
     font-size: 20px;
@@ -67,7 +78,8 @@
   max-width: 750px;
   width: 100%;
  /* padding: 0 60px;*/
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  text-align: center;
 }
 
 .work{
