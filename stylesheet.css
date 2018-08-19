@@ -163,6 +163,11 @@ header{
 }
 
 
+.footer-container{
+  /*float: left;*/
+  text-align: center;
+}
+
 /*.fa.fa-copyright{
   margin-right: 4px;
 }*/
