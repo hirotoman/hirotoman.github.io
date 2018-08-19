@@ -155,8 +155,8 @@ header{
   text-align: center;
 }
 
-.fa.fa-copyright{
-  margin-right: 2px;
+.footer-container .fa.fa-copyright{
+  margin-right: 5px;
 }
 
 /* -------------------- CSSは一番下から書き始めてください！ -------------------- 
