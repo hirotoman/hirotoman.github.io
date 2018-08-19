@@ -77,6 +77,10 @@ header{
   color: #494949;
 }
 
+.fa.fa-sort-desc{
+  margin-left: 2px;
+}
+
 
 .header-right {
   margin-right: 60px;
