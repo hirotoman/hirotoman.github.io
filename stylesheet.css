@@ -61,9 +61,9 @@ header{
   float: left;
   /*padding-top: 10px;
   padding-right: 20px;*/
-  padding: 10px 20px 10px 30px;
+  /*padding: 10px 20px 10px 30px;*/
   color: red;
-  margin-left: 10px;
+  margin: 5px 0 5px 15px;
   line-height: 65px;
 }
 
