@@ -26,6 +26,17 @@ a{
 }
 
 
+/* トップの画像を暗くしたい、、
+
+.top-wrapper::before{
+  background-color: #000;
+  opacity: 0.6;
+}
+
+*/
+
+
+
 header{
   background-color: #ffffff;
   width: 100%;
@@ -77,7 +88,7 @@ header{
   padding-bottom: 80px;
   /*padding-left: 5%;
   padding-right: 5%;*/
-  background-color: #f7f7f7;
+  background-color: #E7EAF0;
   height:930px;
   overflow:hidden;
 }
@@ -118,6 +129,7 @@ header{
 .work-title{
   font-weight: bold;
   font-size: 14px;
+  color: #494949;
   }
 
 .clear{
@@ -128,8 +140,8 @@ header{
 
 
 .seeMore a{
-  border: 1px solid #343e4f;
-  border-radius: 4px;
+  border: 2px solid #71C29F;
+  border-radius: 27.5px;
   display: block;
   width: 100px;
   height: 45px;
@@ -137,7 +149,7 @@ header{
   text-align: center;
   /*letter-spacing: 1px;*/
   margin: 0 auto;
-  color: #343e4f;
+  color: #71C29F;
 }
 
 .seeMore a:hover{
