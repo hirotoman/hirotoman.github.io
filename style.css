@@ -2,3 +2,11 @@
         background: url(images/bg.png);
         background-size: cover;
       }
+
+
+.post-line{
+	border-top: 3px solid #353535;
+	display: block;
+	margin: 0 auto 20px;
+	width: 70px;
+}
