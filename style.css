@@ -1,7 +1,4 @@
-.cover{
-        background: url(images/bg.png);
-        background-size: cover;
-      }
+
 
 
 .post-line{
@@ -9,4 +6,14 @@
 	display: block;
 	margin: 0 auto 20px;
 	width: 70px;
+}
+
+/*.navbar{
+	background-color: #009688;
+}*/
+
+
+
+.figure .figure-caption:hover{
+	opacity: 0.5;
 }
