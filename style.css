@@ -14,6 +14,6 @@
 
 
 
-.figure .figure-caption:hover{
+.figure:hover{
 	opacity: 0.5;
 }
