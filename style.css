@@ -17,3 +17,7 @@
 .figure:hover{
 	opacity: 0.5;
 }
+
+.figure{
+	transition: ease 0.3s;
+}
