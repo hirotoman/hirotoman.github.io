@@ -14,10 +14,10 @@
 
 
 
-.figure:hover{
+.container .figure:hover{
 	opacity: 0.7;
 }
 
-.figure{
+.container .figure{
 	transition: ease 0.3s;
 }
