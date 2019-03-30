@@ -25,41 +25,51 @@
   </head>
 
 	<body>
-		<!-- class, action, methodを変更しないでください -->
-<form class="formrun" action="https://form.run/api/v1/r/m3g1sh4hs5htqd1d0dy2h93f" method="post">
-  <!-- ↓自由に要素を追加・編集することができます -->
-  <div>
-    <label>お名前</label>
-    <input name="お名前" type="text">
-  </div>
 
-  <div>
-    <label>メールアドレス [必須]</label>
-    <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
-    <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
-  </div>
+	<h2 class="text-center mb-3">Contact</h2>
+    <div class="post-line"></div>
 
-  <div>
-    <label>お問い合わせ [必須]</label>
-    <textarea name="お問い合わせ" data-formrun-required></textarea>
-    <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
-  </div>
+<!-- ここからフォームランのフォーム -->
 
-  <div>
-    <label>個人情報利用同意 [必須]</label>
-    <input type="checkbox" name="個人情報利用同意" data-formrun-required>
-    <div data-formrun-show-if-error="個人情報利用同意">同意してください</div>
-  </div>
+	<!-- class, action, methodを変更しないでください -->
+	<form class="formrun" action="https://form.run/api/v1/r/m3g1sh4hs5htqd1d0dy2h93f" method="post">
+	  <!-- ↓自由に要素を追加・編集することができます -->
+	  <div class="form-group col-12 px-5">
+	    <label>お名前</label>
+	    <input name="お名前" type="text" class="form-control">
+	  </div>
 
-  <!-- ボット投稿をブロックするためのタグ -->
-  <div class="_formrun_gotcha">
-    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
-    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
-    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
-  </div>
+	  <div class="form-group col-12 px-5">
+	    <label>メールアドレス [必須]</label>
+	    <input name="メールアドレス" type="text" data-formrun-type="email" placeholder="name@example.com" class="form-control" data-formrun-required>
+	    <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+	  </div>
 
-  <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
-</form>
+	  <div class="form-group col-12 px-5">
+	    <label>お問い合わせ内容 [必須]</label>
+	    <textarea name="お問い合わせ" data-formrun-required class="form-control"></textarea>
+	    <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+	  </div>
+
+	  <div class="form-group col-12 px-5">
+	    <label>個人情報利用同意 [必須]</label>
+	    <input type="checkbox" name="個人情報利用同意" placeholder="name@example.com" class="form-control" data-formrun-required>
+	    <div data-formrun-show-if-error="個人情報利用同意">同意してください</div>
+	  </div>
+
+	  <!-- ボット投稿をブロックするためのタグ -->
+	  <div class="_formrun_gotcha">
+	    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+	    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+	    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+	  </div>
+
+	 <div class="text-center">
+	  <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中..." class="btn btn-primary px-5" >送信する</button>
+	</div>
+	</form>
+
+<!-- フォームランのフォームここまで -->
 
 	</body>
 
